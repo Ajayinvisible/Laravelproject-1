@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Backend\Dashboard\DashboardController;
 use App\Http\Controllers\Backend\Auth\loginController;
 use App\Http\Controllers\Frontend\index\IndexController;
-
+use App\Http\Controllers\Backend\admin\AdminController;
 
 Route::get('/', function () {
     return view('frontend.pages.homePage.index');
@@ -28,11 +28,9 @@ Route::get('logout', function (){
     return view('Normal logout')->name('logout');
 });
 
-
-
-
 Route::group(['namespace'=>'Backend'],function(){
     Route::get('/admin-login',[AdminloginController::class,'index'])->name('admin-login');
+    Route::resource('/admin','\App\Http\Controllers\Backend\admin\AdminController');
     Route::post('/admin-login',[AdminloginController::class,'login']);
 });
 

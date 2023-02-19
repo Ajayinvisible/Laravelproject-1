@@ -33,7 +33,6 @@ class AdminTableSeeder extends Seeder
                 'password'=>bcrypt('ram002'),
                 ]
         ];
-
         foreach ($adminData as $admin){
             Admin::create($admin);
         }

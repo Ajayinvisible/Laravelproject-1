@@ -15,6 +15,11 @@ class Admin extends Authenticatable
         'email',
         'gender',
         'role',
-        'is_active'
+        'is_active',
+        'password'
     ];
+
+    public function gallery(){
+        return $this->hasOne(AdminGallery::class)->latest();
+    }
 }

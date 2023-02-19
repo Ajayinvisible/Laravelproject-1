@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('username')->unique();
             $table->string('email')->unique();
-            $table->enum('gender',['male'],['female']);
+            $table->enum('gender',['male','female']);
             $table->enum('role',['admin','super_admin'])->default('admin');
             $table->boolean('is_active')->default(false);
             $table->string('password');

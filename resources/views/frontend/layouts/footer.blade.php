@@ -63,7 +63,7 @@
     </div>
     <div class="container-fluid py-4 px-sm-3 px-md-5">
         <p class="m-0 text-center">
-            &copy; <a class="font-weight-bold" href="#">Your Site Name</a>. All Rights Reserved. Designed by Ajay Rai
+            &copy; <a class="font-weight-bold" href="#">NewsPortal</a>. All Rights Reserved. Designed by Ajay Rai
         </p>
     </div>
     <!-- Footer End -->
