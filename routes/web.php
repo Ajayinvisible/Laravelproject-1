@@ -31,6 +31,7 @@ Route::get('logout', function (){
 Route::group(['namespace'=>'Backend'],function(){
     Route::get('/admin-login',[AdminloginController::class,'index'])->name('admin-login');
     Route::resource('/admin','\App\Http\Controllers\Backend\admin\AdminController');
+    Route::any('/admin-change-password',[AdminController::class, 'changePassword'])->name('admin-change-password');
     Route::post('/admin-login',[AdminloginController::class,'login']);
 });
 

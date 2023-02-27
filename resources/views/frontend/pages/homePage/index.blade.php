@@ -577,7 +577,7 @@
                             <h3 class="m-0">Tranding</h3>
                         </div>
                         <div class="d-flex mb-3">
-                            <img src="img/news-100x100-1.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <img src="{{url('frontend-assets/img/news-100x100-1.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;">
                             <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
                                 <div class="mb-1" style="font-size: 13px;">
                                     <a href="">Technology</a>
@@ -588,7 +588,7 @@
                             </div>
                         </div>
                         <div class="d-flex mb-3">
-                            <img src="img/news-100x100-2.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <img src="{{url('frontend-assets/img/news-100x100-2.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;">
                             <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
                                 <div class="mb-1" style="font-size: 13px;">
                                     <a href="">Technology</a>
@@ -599,7 +599,7 @@
                             </div>
                         </div>
                         <div class="d-flex mb-3">
-                            <img src="img/news-100x100-3.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <img src="{{url('frontend-assets/img/news-100x100-3.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;">
                             <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
                                 <div class="mb-1" style="font-size: 13px;">
                                     <a href="">Technology</a>
@@ -610,7 +610,7 @@
                             </div>
                         </div>
                         <div class="d-flex mb-3">
-                            <img src="img/news-100x100-4.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <img src="{{url('frontend-assets/img/news-100x100-4.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;">
                             <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
                                 <div class="mb-1" style="font-size: 13px;">
                                     <a href="">Technology</a>
@@ -621,7 +621,7 @@
                             </div>
                         </div>
                         <div class="d-flex mb-3">
-                            <img src="img/news-100x100-5.jpg" style="width: 100px; height: 100px; object-fit: cover;">
+                            <img src="{{url('frontend-assets/img/news-100x100-5.jpg')}}" style="width: 100px; height: 100px; object-fit: cover;">
                             <div class="w-100 d-flex flex-column justify-content-center bg-light px-3" style="height: 100px;">
                                 <div class="mb-1" style="font-size: 13px;">
                                     <a href="">Technology</a>

@@ -10,13 +10,14 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h5 class="card-title">Update Admin Data &nbsp;<i class="fa-solid fa-pen-to-square"></i>
-                          <a href="{{route('admin.update',$adminData->id)}}" class="btn btn-primary float-end"><i class="fa-solid fa-eye"></i> &nbsp;Show Admins</a>
+                          <a href="{{route('admin.index')}}" class="btn btn-primary float-end"><i class="fa-solid fa-eye"></i> &nbsp;Show Admins</a>
                         </h5>
                         <hr>
                     </div>
                     <div class="col-md-12">
-                        <form action="{{route('admin.store')}}" method="post" enctype="multipart/form-data">
+                        <form action="{{route('admin.update',$adminData->id)}}" method="post" enctype="multipart/form-data">
                             @csrf
+                            @method('PUT')
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="mb-3">
@@ -69,7 +70,7 @@
                               <label for="image" class="form-label">Choose Profile Picture</label>
                               <input type="file" name="image" id="image" class="form-control">
                             </div>
-                            <button class="btn btn-success">Register</button>
+                            <button class="btn btn-success">Update</button>
                         </form>
                     </div>
                 </div>
